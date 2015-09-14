@@ -1,0 +1,30 @@
+{
+    "name": "siriusphp/form-example",
+    "description": "Examples for using the Sirius\\FormRenderer library on rendering Sirius\\Input objects as forms",
+    "keywords": [
+        "form",
+        "input",
+        "html",
+        "render",
+        "interface",
+        "user experience",
+        "ux",
+        "user interface",
+        "ui"
+    ],
+    "authors": [
+        {
+            "name": "Adrian Miu",
+            "email": "adrian@adrianmiu.ro"
+        }
+    ],
+    "require": {
+        "siriusphp/input": "dev-master",
+        "siriusphp/form-renderer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sirius\\FormExamples\\": "src/"
+        }
+    }
+}
